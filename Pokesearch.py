@@ -67,38 +67,26 @@ class MainWindow(QMainWindow):
 
     def fetch_pokemon_info(self):
         pokemon_name = self.pokemon_name_input.text()
+        layout = QVBoxLayout()
+        layout.addWidget(QLabel("Enter Pokémon Name:"))
+        self.pokemon_name = QLineEdit()
+        layout.addWidget(self.pokemon_name)
 
         
-        pokemon_data = {
-            "name": "Pikachu",
-            "type": "Electric",
-            "height": "0.4 m",
-            "weight": "6.0 kg",
-            # Add more attributes as needed
-        }
+       
+        self.display_pokemon_info(pokemon_name)
 
-        self.display_pokemon_info(pokemon_data)
-
-    def display_pokemon_info(self, pokemon_data):
+    def display_pokemon_info(self, pokemon_name):
         self.w = QDialog(self)
         self.w.setWindowTitle("Pokédex - Pokémon Information")
         self.w.setGeometry(400, 200, 300, 200)
-
-        layout = QVBoxLayout()
-        for key, value in pokemon_data.items():
-            label = QLabel(f"{key}: {value}")
-            layout.addWidget(label)
-
-        layout.addWidget(QLabel("Enter Pokémon Name:"))
-        self.pokemon_name_input = QLineEdit()
-        layout.addWidget(self.pokemon_name_input)
-
         pushButton = QPushButton(text='Fetch')
-        pushButton.clicked.connect(self.fetch_pokemon_info)
-        layout.addWidget(pushButton)
-
-        self.w.setLayout(layout)
+        pushButton.clicked.connect(self.fetch_pokemon_info) 
         self.w.show()
+
+        
+
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
