@@ -1,9 +1,7 @@
 import sys
-import requests
-from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QLineEdit, QVBoxLayout, QWidget, QDialog
-from PySide6.QtGui import QPixmap, QColor, QPalette
-from PySide6.QtGui import QMovie
-from PySide6.QtCore import QSize, QRect
+from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton
+from PySide6.QtGui import QPixmap,QMovie
+from PySide6.QtCore import  QRect
 from SearchWindow import SearchWindow
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -13,8 +11,8 @@ class MainWindow(QMainWindow):
 
     def initUI(self):
         self.setWindowTitle("Pokédex")
-        # self.setGeometryBasedOnScreen()
-        self.setFixedSize(850, 478)
+
+        self.setFixedSize(850, 500)
 
         self.setStyleSheet("""
             QPushButton {
@@ -26,25 +24,32 @@ class MainWindow(QMainWindow):
                 border-radius: 10px;
             }
             QMainWindow {
-                background-color: #B1322F;
+                background-color: black;
             }
             QLabel {
-                font-size: 18px;
+                font-size: 32px;
             }
             QPushButton:hover {
                 background-color: #BA263E;
                 color: dark-grey;
             }
         """)
-        # place an image.png
-        self.label = QLabel(self)
-        self.label.setGeometry(QRect(0, 0, 850,478))
-        self.label.setPixmap(QPixmap("landing.jpg"))
-        self.label.setScaledContents(True)
-
-       
 
 
+
+        labelmov = QLabel(self)
+        labelmov.setScaledContents(True)
+        movie = QMovie("openingpokeball-pokemon.gif")
+        labelmov.setGeometry(QRect(0, 0, 900,478))
+        labelmov.setMovie(movie)
+        movie.start() 
+        poke_search_label = QLabel("POKESEARCH", self)
+        poke_search_label.setStyleSheet("color: white; font-size: 32px; font-weight: bold;")
+        poke_search_label.setGeometry(QRect(50, 5, 900, 250))
+        poke_label = QLabel("ENGINE ", self)
+        poke_label.setStyleSheet("color: white; font-size: 32px; font-weight: bold;")
+        poke_label.setGeometry(QRect(50, 50, 900, 250))
+     
 
         pushButton = QPushButton(parent=self, text='GO!')
         pushButton.setGeometry(50, 300, 160, 43)
