@@ -16,8 +16,9 @@ Your assigned a task by Proffesor Oak! Salvage the destroyed repository before t
 ## Task 3:-
     - Display all the pokemons captured with their respective names using a new window
 
-Task 2 
+## Example
 
+![](https://github.com/Wreck-X/Poke-Search/blob/main/assets/openingpokeball-pokemon.gif)
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Pyside6 for pyqt.
 
 ```bash
