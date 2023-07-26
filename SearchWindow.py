@@ -1,11 +1,6 @@
 
-from PySide6.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton,QMessageBox
-from PySide6.QtGui import QPixmap
-
-
-
-
-
+from PySide6.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton
+import requests
 
 class SearchWindow(QWidget):
     """
@@ -35,13 +30,18 @@ class SearchWindow(QWidget):
         display_button = QPushButton("Display", self)
         display_button.setGeometry(50, 400, 160, 43)
 
-       
+    ## TO-DO ##
 
+    # 1 #
+    # Fetch the data from from the api #
+    # Display the name, Official artwork (image), abilities, types and stats when queried with a pokemon name #
+    # Add the background provided in assets #
 
-       
+    # 2 #
+    # Capture the pokemon,ie. download the image. #
 
-    
-
+    # 3 #
+    # Display all the pokemons captured with their respective names using a new window #
 
 if __name__ == "__main__":
     import sys
