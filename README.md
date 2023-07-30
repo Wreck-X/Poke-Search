@@ -30,7 +30,8 @@ https://github.com/Wreck-X/Poke-Search/assets/116485331/3e258424-21f2-4de3-8b4f-
 
 
 
-Make sure to follow the [instructions](https://github.com/Wreck-X/Poke-Search/blob/main/INSTRUCTIONS.md) closely to set up the app and embark on your Pokémon adventure! Good luck, Trainer! 🍀🕹️🌟
+Make sure to follow the [instructions](https://github.com/Wreck-X/Poke-Search/blob/main/INSTRUCTIONS.md) closely to set up the app and embark on your Pokémon adventure! 
+*Good luck, Trainer! 🍀🕹️🌟*
 
 
 
