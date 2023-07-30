@@ -3,8 +3,8 @@
 Poke-Search: Professor Oak's ultimate Pokemon research app for trainers worldwide!
 
 ## 
-Your assigned a task by Proffesor Oak! Salvage the destroyed repository before the deadline. He has given three levels for you to complete
-
+Hey Trainer! Get ready for an exciting mission from Professor Oak himself! Your task is to craft the ultimate Pokémon research app,          
+*Poke-Search* and make it stand out.
 ##  🔴Level 1 :-
     - Fetch the data from from the api 
     - Display the name, Official artwork (image), abilities, types and stats when queried with a pokemon name 
@@ -16,7 +16,7 @@ Your assigned a task by Proffesor Oak! Salvage the destroyed repository before t
 ##  ⚫️Level 3:-
     - Display all the pokemons captured with their respective names using a new window
 
- ***Feel free to change the gui in any way you want we will be evaluating your creativity!.***
+ ***Feel free to get creative and customize the GUI to make this app truly unique. Show Professor Oak what you're made of and go on an epic Pokémon journey!  🌟🔍🎉***
 ## Example
 
 
