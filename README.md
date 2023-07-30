@@ -18,7 +18,8 @@ Your assigned a task by Proffesor Oak! Salvage the destroyed repository before t
 
 ## Example
 
-![](https://github.com/Wreck-X/Poke-Search/blob/main/assets/openingpokeball-pokemon.gif)  
+![poke](https://github.com/Wreck-X/Poke-Search/assets/116485331/abae0368-07e9-4483-8feb-f44542e4657e)
+
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Pyside6 for pyqt.
 
 ```bash
