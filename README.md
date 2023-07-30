@@ -3,8 +3,7 @@
 Poke-Search: Professor Oak's ultimate Pokemon research app for trainers worldwide!
 
 ## 
-Hey Trainer! Get ready for an exciting mission from Professor Oak himself! Your task is to craft the ultimate Pokémon research app,          
-*Poke-Search* and make it stand out.
+Hey Trainer! Get ready for an exciting mission from Professor Oak himself! Your task is to craft the ultimate Pokémon research app.
 ##  🔴Level 1 :-
     - Fetch the data from from the api 
     - Display the name, Official artwork (image), abilities, types and stats when queried with a pokemon name 

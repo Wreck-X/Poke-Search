@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
 
         labelmov = QLabel(self)
         labelmov.setScaledContents(True)
-        movie = QMovie("Poke-Search/assets/openingpokeball-pokemon.gif") # Change url if gif is not loading in the main page
+        movie = QMovie("assets/openingpokeball-pokemon.gif") # Change url if gif is not loading in the main page
         labelmov.setGeometry(QRect(0, 0, 900,478))
         labelmov.setMovie(movie)
         movie.start() 
