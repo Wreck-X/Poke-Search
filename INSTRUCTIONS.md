@@ -1,34 +1,33 @@
-## Instructions
-
-# Setup
-*Clone the repository to your local machine:*
+# Instructions🌟🔍🎉
 
 
--git clone https://github.com/Wreck-X/Poke-Search.git
+## 💫Setup
+### ⚫️ Clone the repository to your local machine:
 
-*Navigate to the project directory:*
+    git clone https://github.com/Wreck-X/Poke-Search.git
 
+### ⚫️ Navigate to the project directory:
 
--cd Poke-Search
+    cd Poke-Search
 
-*Create a virtual environment using Python's venv module:*
+### ⚫️ Create a virtual environment using Python's venv module:
 
+    python -m venv poke_env
 
+### ⚫️ Activate the virtual environment:###
 
--python -m venv poke_env
-*Activate the virtual environment:*
+    poke_env\Scripts\activate
 
-
--poke_env\Scripts\activate
-*Install the project's dependencies from the requirements.txt file:*
-
--pip install -r requirements.txt
-
-
-Run the Poke-Search application:
+### ⚫️  Install the project's dependencies from the requirements.txt file:
 
 
--python main.py
+    pip install -r requirements.txt
+
+
+
+###  ⚫️ Run the Poke-Search application:
+
+    python main.py
  
 
 
