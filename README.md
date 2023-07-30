@@ -16,7 +16,7 @@ Your assigned a task by Proffesor Oak! Salvage the destroyed repository before t
 ## Level 3:-
     - Display all the pokemons captured with their respective names using a new window
 
-__ Feel free to change the gui in any way you want we will be evaluating your creativity!. __
+ ***Feel free to change the gui in any way you want we will be evaluating your creativity!.***
 ## Example
 
 
