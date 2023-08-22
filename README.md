@@ -41,8 +41,9 @@ Professor Oak has provided all the information you'll need to rebuild his app. H
 
 
 
-###   Run the Poke-Search application:
+###   Navigate to src and run the Poke-Search application:
 
+    cd src/
     python main.py
  
 
