@@ -2,7 +2,7 @@ import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton
 from PySide6.QtGui import QPixmap,QMovie
 from PySide6.QtCore import  QRect
-from SearchWindow import SearchWindow
+from SearchWindow import search_window
 
 class MainWindow(QMainWindow):
     def __init__(self):
