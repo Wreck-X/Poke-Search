@@ -51,7 +51,7 @@ Professor Oak has provided all the information you'll need to rebuild his app. H
 
 
 
-https://github.com/Wreck-X/Poke-Search/blob/main/assets/screen-recording-2023-07-30-at-32116-pm_rEbUiiP7.mov
+![](https://github.com/Wreck-X/Poke-Search/blob/main/assets/output.gif)
 
 
 
