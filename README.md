@@ -30,7 +30,7 @@ Professor Oak has provided all the information you'll need to rebuild his app. H
 
     python -m venv poke_env
 
-### Activate the virtual environment:###
+### Activate the virtual environment:
 
     source poke_env/bin/activate
 
