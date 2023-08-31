@@ -32,7 +32,7 @@ Professor Oak has provided all the information you'll need to rebuild his app. H
 
 ### Activate the virtual environment:###
 
-    poke_env\Scripts\activate
+    source poke_env/bin/activate
 
 ### Install the project's dependencies from the requirements.txt file:
 
