@@ -61,7 +61,7 @@ Professor Oak has provided all the information you'll need to rebuild his app. H
 
 
 
-Make sure to follow the [instructions](https://github.com/Wreck-X/Poke-Search/blob/main/INSTRUCTIONS.md) closely to set up the app and embark on your Pokémon adventure! 
+Make sure to follow the [instructions](https://github.com/Wreck-X/Poke-Search/blob/main/README.md) closely to set up the app and embark on your Pokémon adventure! 
 *Good luck, Trainer!*
 
 
